@@ -1,0 +1,43 @@
+.article {
+    padding-bottom: 700px;
+}
+
+.new {
+    border-bottom: 1px solid black;
+    margin: 12px;
+    margin-bottom: 20px;
+    padding:10px;
+}
+
+.list {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+
+.list img {
+    float: left;
+    width: 230px;
+    height: 150px;
+}
+
+.list p {
+    margin-left: 250px;
+}
+
+.list a ,.list a:hover , .list a:visited ,.list a:active{
+    text-decoration: none;
+    color: black;
+}
+
+.list a:hover {
+    color: #991915;
+}
+
+.titles{
+    font-weight:bolder;
+    font-size: 1.3em;
+}
+
+#author {
+    font-size: 0.7em;
+}

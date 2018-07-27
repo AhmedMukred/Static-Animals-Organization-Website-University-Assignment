@@ -1,0 +1,178 @@
+.article {
+    margin-left: 6%;
+    font-family: "Roboto", sans-serif;
+    background-color: white;
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border: 1px solid lightgray;
+    display: inline-block;
+    width: 55%;
+    box-sizing: border-box;
+    margin-top: 130px;
+}
+
+#backlink, #backlink:visited, #backlink:hover,#backlink p {
+    margin-left: 10px;
+    font-family: monospace;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: dimgray;
+}
+
+#backlink:hover p{
+    color: #991915;
+}
+
+.article p{
+    letter-spacing: 0em;
+    font-weight: 400;
+    line-height: 1.444;
+    text-align: left;
+}
+
+
+#imgTopic {
+    width: 600px;
+    margin: 0px;
+    float: none;
+    margin: auto;
+}
+
+.article #topic {
+    font-family: "New Grotesk Square",sans-serif;
+    font-weight: bold;
+    font-size: 2.375rem;
+    margin-left: 30px;
+    letter-spacing: 0.015em;
+    line-height: 0.93em;
+    word-spacing: -0.015em;
+    text-transform: capitalize;
+    margin-top: 0px;
+}
+
+.article img {
+    width: 410px;
+    margin-bottom: 15px;
+    float: right;
+    display: block;
+}
+
+
+#publication, #publication p{
+    margin: 0px 100px 0px 0px;
+    padding: 0px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    display: inline-block;
+    float: left;
+    font-size: 12px;
+    margin-top: 6px;
+    margin-bottom: 0px;
+    font-style: italic;
+}
+
+#date {
+    float: right;
+}
+
+#content {
+    margin: 30px 40px 50px 40px;
+}
+
+#content h2{
+    color: deepskyblue;
+    text-transform: capitalize;
+}
+
+
+.share {
+    font-family:  "Brutal" , sans-serif;
+    margin-left: 15px;
+}
+
+.share p {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+
+.share a ,.share a:hover,.share a:active , .share a:visited{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    padding-right: 25px;
+    color: white;
+}
+
+.share a:hover svg {
+    padding-bottom: 5px;
+    padding-right: 10px;
+}
+
+.mostVisited {
+    font-family: "Roboto", sans-serif;
+    background-color: white;
+    font-size: 14px;
+    float: right;
+    box-sizing: border-box;
+    width: 30%;
+    margin-right: 6%;
+    margin-top: 30px;
+    border: 1px solid lightgray;
+    display: inline-block;
+    margin-top: 130px;
+}
+
+.mostVisited a, .mostVisited a:hover, .mostVisited a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+#mostVisitedBar {
+    font-size: 16px;
+    color: #991915;
+    font-weight: bold;
+    border-top: 7px solid #991915;
+    border-bottom: 1px solid lightgray;
+    margin: 0px;
+    margin-bottom: 10px;
+    padding: 10px;
+
+}
+
+.mostVisited .topicphoto {
+    width: 320px;
+    margin: auto;
+    display: block;
+}
+
+.mostVisited .title {
+    font-family: "New Grotesk Square",sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 30px;
+    text-transform: capitalize;
+    margin-bottom: 8px;
+}
+
+.mostVisited .intro {
+    margin-left: 12px;
+    font-size: 14px;
+    margin: 5px 30px 20px 30px;
+    color: dimgray;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 20px;
+}
+
+.comment {
+    padding-bottom: 20px;
+}
+
+.comment p{
+    font-size: 1rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin-left: 20px;
+    font-weight: bolder;
+}

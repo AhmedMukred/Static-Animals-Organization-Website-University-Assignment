@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Contact Us</title>
+        <link rel="shortcut icon" href="Images/AnimalsWorld_ShortCut.png">
+        <link rel="stylesheet" href="News.CSS" type="text/css">
+        <link rel="stylesheet" type="text/css" href="main%20css%20design.css">
+        <link rel="stylesheet" type="text/css" href="Contact.css">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Mukta+Mahee" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <script type="text/javascript">
+            var timer = null
+            function addZero(i) {
+                if (i < 10) {
+                    i = "0" + i;
+                }
+                return i;
+            }
+            
+            function start()
+            {
+                var time = new Date();
+                var am_pm = time.getHours() >= 12 ? "PM" : "AM";
+                var hours = addZero(time.getHours() > 12 ? time.getHours() - 12 : time.getHours());
+                var minutes = addZero(time.getMinutes());
+                var seconds = addZero(time.getSeconds());
+                var clock = hours + ":" + minutes + ":" + seconds + " " + am_pm;
+                document.forms[0].display.value = clock;
+                timer = setTimeout("start()",1000)
+            }
+        </script>
+        
+    </head>
+    
+    <body dir="ltr" onload="start()">
+        
+       <header align="center">
+	       	<a href="homepage.html" target="_self"><img src="Images/AnimalsWorld_logo.png" alt="Animal World Logo" width="10%"></a>
+			<!-- First Button-->
+	       	<div class="svg-wrapper">
+				<svg height="40" width="150" xmlns="http://www.w3.org/2000/svg">
+					<rect id="shape" height="40" width="150" />
+					<div id="text">
+						<a href="homepage.html"><span class="spot"></span>Home</a>
+					</div>
+				</svg>
+			</div>
+			<!-- end first button-->
+			<!-- NEXT BUTTON -->
+	        <div class="svg-wrapper">
+	  			<svg height="40" width="150" xmlns="http://www.w3.org/2000/svg">
+					<rect id="shape" height="40" width="150" />
+					<div id="text">
+		  				<a href="Animals%20News.html"><span class="spot"></span>Animal News</a>
+					</div>
+	  			</svg>
+			</div>
+			<!--Next button -->
+			<div class="svg-wrapper">
+				<svg height="40" width="150" xmlns="http://www.w3.org/2000/svg">
+					<rect id="shape" height="40" width="150" />
+					<div id="text">
+						<a href="Latest%20Articles.html"><span class="spot"></span>Latest articles</a>
+					</div>
+				</svg>
+			</div>
+				<!--Next button -->
+			<div class="svg-wrapper">
+				<svg height="40" width="150" xmlns="http://www.w3.org/2000/svg">
+					<rect id="shape" height="40" width="150" />
+					<div id="text">
+					  <a href="About Us.html"><span class="spot"></span>About us</a>
+					</div>
+				</svg>
+			</div>
+				<!--Next button -->
+			<div class="svg-wrapper">
+				<svg height="40" width="150" xmlns="http://www.w3.org/2000/svg">
+					<rect id="shape" height="40" width="150" />
+					<div id="text">
+					  <a href="Contact.html"><span class="spot"></span>Contact us</a>
+					</div>
+				  </svg>
+			</div>
+			<ul id="timeItem"><form><input type="text" name="display" size="8" id="time" disabled></form></ul>
+			
+        </header>
+        
+        
+        <div class="article" alter="center">
+            
+            <a href="Contact.html" target="_self" id="backlink"><p> CONTACT US</p></a>
+            
+            <table>
+                <form name="contact" method="post">
+                    <tr>
+                        <td>Name :</td>
+                        <td><input type="text" size="25" name="name" placeholder="Your name"/></td>
+                    </tr>
+                    <tr>
+                        <td>Contact Number : </td>
+                        <td><input type="text" name="number" size="20" placeholder="Mobile number"/></td>
+                    </tr>
+                    <tr>
+                        <td>Email :</td>
+                        <td><input type="text" size="20" name="email" placeholder="Email Address"/></td>
+                    </tr>
+                    <tr>
+                        <td>Message : </td>
+                        <td><textarea rows="10" cols="50" placeholder="Type your message here...."></textarea></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="submit" value="Send"> <input type="reset"></td>
+                    </tr>
+                </form>
+            </table>
+            
+            
+        </div>
+        
+                
+        <footer align="center">
+            <p>Follow US</p>
+            <ul>
+                <li><a href="https://www.facebook.com/" target="_blank"><img alt="Facebook logo" src="Images/facebook.png" onmouseover="this.src='Images/over_facebook.png'" onmouseout="this.src='Images/facebook.png'"></a></li>
+                <li><a href="https://www.twitter.com" target="_blank"><img alt="Twitter logo" src="Images/twitter.png" onmouseover="this.src='Images/over_twitter.png'" onmouseout="this.src='Images/twitter.png'"></a></li>
+                <li><a href="https://www.youtube.com/" target="_blank"><img alt="Youtube logo" src="Images/youtube.png" onmouseover="this.src='Images/over_youtube.png'" onmouseout="this.src='Images/youtube.png'"></a></li>
+                <li><a href="https://www.instagram.com/" target="_blank"><img alt="Instagram logo" src="Images/instagram.png" onmouseover="this.src='Images/over_instagram.png'" onmouseout="this.src='Images/instagram.png'"></a></li>
+            </ul>
+            <form>
+                <input type="search" name="Search">
+                <input type="submit" value="Search">
+            </form>
+            <p id="copy">All Copyrights Reserved to Animal World &copy; 2017</p>
+        </footer>
+        
+        
+    </body>
+</html>

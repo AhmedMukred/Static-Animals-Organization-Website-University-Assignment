@@ -1,0 +1,181 @@
+nav {
+    text-align: center;
+    width:100%;
+    background: url("Images/Discover.jpg") no-repeat center;
+    background-attachment: fixed;
+    margin: 0px;
+    padding-bottom: 100px;
+}
+
+nav p {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav #discover {
+    font-family: 'Mukta Mahee', sans-serif; 
+    font-size: 400%;
+    font-weight: bold;
+    letter-spacing: .14em;
+    word-spacing: .18em;
+    color:white;
+
+}
+
+nav p#seemore{
+    background-color: #4CAF50;
+    text-decoration: none;
+    border: none;
+    color: white;
+    padding: 20px 55px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+
+}
+
+
+
+#title {
+    border-left: 4px solid yellow;
+    padding-left: 30px;
+    letter-spacing: 0.2em;
+    margin-left: 50px;
+    font-family: "Gill Sans MT";
+    font-size: 37px;
+    text-align: left;
+}
+
+#animal_life ul {
+    margin-right: 4%;
+    padding: 0px;
+    margin-left: 6%;
+    font-size: 20px;
+}
+
+#animal_life ul a{
+    text-decoration: none;
+    padding-left: 0px;
+    color: white;
+}
+
+.latest_articles {
+    background: #000000;
+    width:100%;
+    margin-top: 50px;
+    color: white;
+    font-family: "Gill Sans MT";
+    font-size: 29px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+    
+.latest_articles table{
+    margin: 20px;
+    width:95%;
+    box-sizing:border-box;
+}
+
+.latest_articles table {
+    table-layout: fixed;
+    vertical-align: top;
+}
+
+.latest_articles td {
+    padding: 10px;
+    border-left: 1px solid white;
+    padding-left: 15px;
+}
+
+.latest_articles img {
+    height: 200px;
+    width: 372px;
+}
+
+.latest_articles a:hover {
+    margin: 7px;
+    padding-left: 5px;
+    border-left: 2px solid yellow;
+}
+ .latest_articles a, .latest_articles a:hover , .latest_articles a:active, .latest_articles a:visited {
+     color: white;
+     text-decoration: none;
+}
+
+
+.news {
+     padding-bottom: 20px;
+
+}
+
+.news p {
+    text-align: left; 
+}
+
+.news a ,.news a:hover{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#animal_news {
+    border-left: 4px solid yellow;
+    padding-left: 30px;
+    letter-spacing: 0.2em;
+    margin-left: 50px;
+    font-family: "Gill Sans MT";
+    font-size: 37px;
+    text-align: left;
+}
+
+#newleft, #newright {
+    font-family: "Helvetica",sans-serif;
+    font-size: 20px;
+}
+
+#newleft {
+    float: left;
+    width:  27%;
+    box-sizing: border-box;
+    margin-left: 90px;
+}
+
+#newleft img{
+    width:400px;
+}
+
+#newright{
+    float: right;
+    width:  45%;
+    padding-top: 60px;
+    margin-right: 90px;
+}
+
+#newright img{
+    width:590px;
+    height: 420px
+}
+
+.videos {
+    width: 100%;
+    background-color: #f1f1f1;
+    padding-bottom: 20px;
+    float: left;
+}
+
+#videoleft {
+    float: left;
+    width:  27%;
+    box-sizing: border-box;
+    margin-left: 90px;
+}
+
+
+#videoright{
+    float: right;
+    width:  45%;
+    padding-top: 100px;
+    margin-right: 80px;
+}

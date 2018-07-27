@@ -1,0 +1,50 @@
+.article {
+    padding-bottom: 700px;
+}
+
+.topic {
+    border-bottom: 1px solid black;
+    margin: 12px;
+    margin-bottom: 20px;
+    padding:10px;
+    padding-bottom: 50px;
+}
+
+.list {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+
+.list img {
+    float: left;
+    width: 130px;
+    height: 120px;
+}
+
+.list p {
+    margin-left: 160px;
+    line-height: 0.9em
+}
+
+.list a ,.list a:hover , .list a:visited ,.list a:active{
+    text-decoration: none;
+    color: black;
+}
+
+.list a:hover {
+    color: #991915;
+}
+
+#author{
+    font-weight:bold;
+    font-size: 1em;
+}
+
+.titles {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.topic:hover {
+    background-color: #d2d2d2;
+}

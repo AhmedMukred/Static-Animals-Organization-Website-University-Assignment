@@ -1,0 +1,45 @@
+.intro {
+    background-color: white;
+    width:50%;
+    padding: 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    border: 1px solid lightgray;
+    margin: auto;
+    padding-bottom: 150px;
+    margin-bottom: 30px;
+    margin-top: 70px;
+    text-align: left;
+}
+
+#pagetitle, #pagetitle:visited, #pagetitle:hover,#pagetitle h1 {
+    margin: 0px;
+    margin-left: 25px;
+    font-family: monospace;
+    font-weight: bold;
+    color: dimgray;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+#pagetitle:hover h1{
+    color: #991915;
+}
+
+.intro p{
+    letter-spacing: 0em;
+    font-weight: 400;
+    line-height: 1.444;
+    text-align: left;
+    margin-left: 20px;
+}
+
+
+.intro img {
+    width: 400px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    margin-left: 8px;
+    float: right;
+    display: block;
+}
